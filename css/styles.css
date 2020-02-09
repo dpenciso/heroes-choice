@@ -1,11 +1,22 @@
 body {
     background-image: url(https://www.dualshockers.com/wp-content/uploads/2015/04/heroes_of_the_storm_wall_paper.jpg);
 }
-.wheel {
+.wheels {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center; 
     padding-top: 10px;
+}
+
+.wheel {
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.wheel h2 {
+    text-align: center;
+    color: white;
+    text-shadow: black 3px 3px;
 }
 
 h1 {
